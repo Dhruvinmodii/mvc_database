@@ -1,0 +1,16 @@
+ <%@ page isELIgnored="false" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1> Welcome ${msg} , ${user.username }</h1>
+	<h3> Your email is ${user.email } and password is ${user.userpass }</h1>
+	
+</body>
+</html>
